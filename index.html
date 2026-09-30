@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagraj Mangalgi | CSE Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172033;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0b2a4a;
+            color: white;
+            padding: 20px 8%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: #0b2a4a;
+            color: white;
+            padding: 90px 8%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        section {
+            max-width: 1050px;
+            margin: auto;
+            padding: 65px 8%;
+        }
+
+        section h2 {
+            color: #0b2a4a;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h3 {
+            color: #0b2a4a;
+            margin-bottom: 10px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #0b2a4a;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #0b2a4a;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 20px;
+        }
+
+        .contact {
+            text-align: center;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .contact a {
+            color: #0b2a4a;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            background: #0b2a4a;
+            color: white;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>Nagraj Mangalgi</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Nagraj Mangalgi</h1>
+    <p>3rd-Semester Computer Science & Engineering Student</p>
+</section>
+
+<section id="about" class="about">
+    <h2>About</h2>
+
+    <p>
+        I am a 3rd-semester Computer Science and Engineering student
+        building my programming and problem-solving skills through
+        practical activities. I am learning C, C++, Python, Git,
+        GitHub, SQL, and Data Structures and Algorithms. My current
+        focus is improving my C++ and DSA skills for software
+        engineering placements.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects & Activities</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Activity 1 — VS Code Setup</h3>
+
+            <p>
+                Set up Visual Studio Code and the required programming
+                tools and extensions for writing, compiling, and
+                running programs.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Activity 2 — Git & GitHub Setup</h3>
+
+            <p>
+                Created and configured my GitHub account and learned
+                the basics of GitHub. Created a Hello World C repository
+                and practiced uploading and managing code.
+            </p>
+
+            <a
+                href="https://github.com/nagrajmangalgi282-ship-it/hello-world-c"
+                target="_blank">
+                View Hello World Repository →
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Activity 3 — GitLens & Live Share</h3>
+
+            <p>
+                Explored GitLens and Live Share in VS Code to understand
+                Git features and collaborative programming workflows.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Activity 4 — LeetCode Practice</h3>
+
+            <p>
+                Practiced beginner-level LeetCode problems involving
+                arrays and strings, including Two Sum, Anagram, and
+                Best Time to Buy and Sell Stock.
+            </p>
+
+            <a
+                href="https://github.com/nagrajmangalgi282-ship-it/leetcode-solutions"
+                target="_blank">
+                View LeetCode Repository →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span class="skill">C</span>
+        <span class="skill">C++</span>
+        <span class="skill">Python</span>
+        <span class="skill">Data Structures & Algorithms</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Visual Studio Code</span>
+        <span class="skill">LeetCode</span>
+        <span class="skill">SQL / MySQL</span>
+        <span class="skill">Problem Solving</span>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <p>
+        You can explore my programming work through my GitHub repositories.
+    </p>
+
+    <p>
+        <a
+            href="https://github.com/nagrajmangalgi282-ship-it"
+            target="_blank">
+            Visit my GitHub Profile →
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Nagraj Mangalgi | CSE Student</p>
+</footer>
+
+</body>
+</html>
